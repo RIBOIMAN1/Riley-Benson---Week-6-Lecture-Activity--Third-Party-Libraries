@@ -12,6 +12,7 @@ h1 {
     color: cyan; /* Cyan color for the text */
     font-size: 2em; /* Multiplies the size of the font by 2 */
     margin-bottom: 0.5em; /* Multiplies the space at the bottom of an element by 1/2 */
+    font-weight: 1000 !important;
 } /* Cyan color and font size and spacing adjustments for <h1> element */
 
 h2 {
@@ -24,7 +25,8 @@ h3 {
     color: salmon; /* Salmon color for the text */
     font-size: 1.15em; /* Multiplies the size of the font by 1.15 */
     margin-bottom: 1em; /* Multiplies the space at the bottom of the element by 1 */
-} /* Salmon color and font size and spacing adjustments for <h3> element */
+    text-indent: 50px; /* Indents the first line of text by 50px */
+} /* Salmon color and font size and spacing adjustments with first line indentation for <h3> element */
 
 ul {
     list-style-type: none; /* Removes bullet points */
@@ -189,3 +191,11 @@ a:hover {
 img {
     border-radius: 10px; /* Applies a 10px radius for borders of images to create rounded corners */
 }
+
+.JustifyText {
+    text-align: justify; /* Gives justified alignment for text */
+} /* Justify-aligns text */
+
+.PlumFont {
+    color: plum; /* Plum color for the text */
+} /* Applies a plum text color */
